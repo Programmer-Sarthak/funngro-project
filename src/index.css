@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --funngro-green: #22c55e;
+}
+
+body {
+  @apply bg-[#050816] text-white overflow-x-hidden;
+  background-image: radial-gradient(circle at 50% 50%, #111827 0%, #050816 100%);
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+}
